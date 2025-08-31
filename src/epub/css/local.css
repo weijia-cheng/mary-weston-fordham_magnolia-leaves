@@ -46,7 +46,7 @@ footer{
 	font-variant: small-caps;
 }
 
-section[epub|type~="foreword"] footer p:last-of-type{
+#foreword footer p:last-of-type{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
