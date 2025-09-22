@@ -1,6 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+article,
+section[epub|type~="division"] h2{
+	break-after: page;
+}
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
