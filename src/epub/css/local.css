@@ -55,6 +55,25 @@ section[epub|type~="dedication"] > *{
 }
 /* End all epigraphs */
 
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* Begin verse */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
@@ -73,6 +92,14 @@ section[epub|type~="dedication"] > *{
 
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] hgroup p + p{
+	margin-top: 0;
 }
 
 p span.i1{
@@ -123,8 +150,22 @@ footer{
 	text-align: center;
 }
 
-#maiden-and-river header p{
+#maiden-and-river header p,
+#mrs-mary-furman-weston-byrd header p{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
+}
+
+#mrs-mary-furman-weston-byrd div{
+	margin-bottom: 1em;
+}
+
+#mrs-mary-furman-weston-byrd div > p{
+	margin: 0;
+	text-indent: 1em;
+}
+
+#mrs-mary-furman-weston-byrd div > p:first-of-type{
+	text-indent: 0;
 }
