@@ -53,10 +53,6 @@ article > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	article > header [epub|type~="epigraph"]{
 		display: table;
