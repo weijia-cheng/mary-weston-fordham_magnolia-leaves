@@ -43,21 +43,6 @@ section[epub|type~="dedication"] > *{
 	hyphens: none;
 	-epub-hyphens: none;
 }
-
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
@@ -148,7 +133,7 @@ footer{
 }
 
 #preface footer p span:first-of-type{
-	text-align: left;
+	text-align: initial;
 }
 
 #preface footer p span:nth-of-type(2){
