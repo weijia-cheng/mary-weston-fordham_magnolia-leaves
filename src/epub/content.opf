@@ -103,9 +103,9 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="dedication.xhtml"/>
 		<itemref idref="foreword.xhtml"/>
 		<itemref idref="preface.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="magnolia-leaves.xhtml"/>
 		<itemref idref="in-memoriam.xhtml"/>
