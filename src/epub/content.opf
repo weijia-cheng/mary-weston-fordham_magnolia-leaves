@@ -35,7 +35,7 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of poems by Mary Weston Fordham.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			<p>Writing in the second half of the 19th century, <a href="https://standardebooks.org/ebooks/mary-weston-fordham">Mary Weston Fordham</a> was an African-American poet and teacher for the American Missionary Association, a Christian organization that played a major role in building schools for African-Americans following Reconstruction. Much of her poetry relates to religious and familial themes, especially the process of grieving for dead family members. She published her poetry in the collection <i>Magnolia Leaves</i>, which also contains a foreword by <a href="https://standardebooks.org/ebooks/booker-t-washington">Booker T. Washington</a>.</p>
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://scalar.lehigh.edu/african-american-poetry-a-digital-anthology/mary-weston-fordham-magnolia-leaves-full-text-1897-preface-by-booker-t-washington</dc:source>
