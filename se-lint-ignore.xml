@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="magnolia-leaves.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>A line ends mid-dash.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
