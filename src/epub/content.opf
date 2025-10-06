@@ -63,6 +63,7 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Sarah Thompson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Thompson, Sarah</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://weijiarhymeswith.asia/</meta>
